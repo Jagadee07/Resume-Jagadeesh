@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+}
+
+.resume {
+    width: 850px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #2c3e50;
+}
+
+.details h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+.details h3 {
+    margin: 5px 0 10px 0;
+    color: #3498db;
+}
+
+.details p {
+    margin: 4px 0;
+    color: #444;
+}
+
+/* SECTIONS */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #2c3e50;
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 6px 0;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* REMOVED hover effect as requested */
+/* table tr:hover removed */
+
+/* NAME TAG (NEW) */
+.name-tag {
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background: #2c3e50;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
