@@ -2,13 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: #eef2f7;
+    background: #1e293b;
 }
 
 .resume {
     width: 850px;
     margin: 30px auto;
-    background: navyblue;
+    background: white;
     padding: 30px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     border-radius: 10px;
